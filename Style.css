@@ -1,0 +1,52 @@
+.name__user {
+    background: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    color: orangered;
+    text-align: center;
+    line-height: 35px;
+}
+
+.picture {
+    position: relative;
+    width: 190px;
+    margin: 5px;
+
+}
+
+.pictre_img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid green;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+.like {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.comment {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.picture:hover .overlay {
+    opacity: 1;
+}

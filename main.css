@@ -1,0 +1,22 @@
+.header {
+    background: #3B4045;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.pictures {
+    width: 1000px;
+    background: gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
